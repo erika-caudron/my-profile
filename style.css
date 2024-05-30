@@ -1,0 +1,117 @@
+/* colors and fonts */
+
+body {
+  background: #e0e1dd;
+  color: rgb(30, 30, 30);
+  font-family: "Lora",serif;
+  font-size: 15px;
+}
+
+
+h1,H2,h3 {
+	font-family: "Roboto",sans-serif;
+}
+
+
+h1 {
+  color: #415a77;
+	font-size: 40px;
+	font-weight: 
+	line-height: 1.4;
+}
+
+h2 {
+  color: #778da9;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+a {
+	font-family: "Roboto",sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	text-decoration: none;
+	color: #1b263b;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+img {
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 5px darkgrey;
+}
+
+/* Customer design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media	(max-width: 760px) {
+	.container  {
+	width: 600px;
+	}
+}
+
+@media	(max-width: 500px) {
+	.container  {
+	width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.img-circle  {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #778da9;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+
+.list-inline i {
+	font-size: 100px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	color: #415a77;
+}
+
+#EMLV-Btn p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
